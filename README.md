@@ -1,5 +1,7 @@
 ## Apex Code Coverage into SonarQube from a Salesforce Validation
 
+*NOTICE*: This has been converted to a Salesforce CLI plugin and will be maintained here - https://github.com/mcarvin8/apex-code-coverage-transformer
+
 The JSON file created by the `sf project deploy validate` command isn't accepted by SonarQube automatically.
 
 The JSON file needs to be convered to the Generic Test Coverage Format (https://docs.sonarsource.com/sonarqube/9.8/analyzing-source-code/test-coverage/generic-test-data/#:~:text=Generic%20test%20coverage%20report%20format,-Report%20paths%20should&text=Insert%20a%20file%20element%20for,be%20covered%20by%20unit%20tests.).
